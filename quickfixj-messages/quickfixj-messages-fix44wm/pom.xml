@@ -8,7 +8,7 @@
 	</parent>
 
 	<artifactId>quickfixj-messages-fix44wm</artifactId>
-	<version>1.0.0.5</version>
+	<version>1.0.0.8</version>
 	<packaging>jar</packaging>
 
 	<name>QuickFIX/J Message classes for FIX 4.4</name>
