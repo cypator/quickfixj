@@ -7,12 +7,12 @@
 		<version>2.3.1</version>
 	</parent>
 
-	<artifactId>quickfixj-messages-fix44wm</artifactId>
-	<version>1.0.0.8</version>
+	<artifactId>quickfixj-messages-fix42-virtu</artifactId>
+	<version>1.0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>QuickFIX/J Message classes for FIX 4.4</name>
-	<description>QuickFIX/J Message classes for FIX 4.4</description>
+	<name>QuickFIX/J Message classes for FIX 4.2</name>
+	<description>QuickFIX/J Message classes for FIX 4.2</description>
 	<url>http://www.quickfixj.org</url>
 
 	<dependencies>
@@ -56,7 +56,7 @@
                             <maxmemory>3g</maxmemory>
                             <detectOfflineLinks>false</detectOfflineLinks>
                             <includeDependencySources>false</includeDependencySources>
-                            <sourcepath>${project.basedir}/../../quickfixj-core/target/generated-sources/quickfix/fix44;${project.basedir}/../../quickfixj-core/target/generated-sources/quickfix/field</sourcepath>
+                            <sourcepath>${project.basedir}/../../quickfixj-core/target/generated-sources/quickfix/fix42;${project.basedir}/../../quickfixj-core/target/generated-sources/quickfix/field</sourcepath>
                         </configuration>
                     </execution>
                 </executions>
@@ -73,7 +73,7 @@
 						</goals>
 						<configuration>
 							<instructions>
-								<Export-Package>quickfix.field;version="${project.version}";uses:=quickfix,quickfix.fix44;version="${project.version}";uses:=quickfix,quickfix.field;version="${project.version}"</Export-Package>
+								<Export-Package>quickfix.field;version="${project.version}";uses:=quickfix,quickfix.fix42;version="${project.version}";uses:=quickfix,quickfix.field;version="${project.version}"</Export-Package>
 								<Import-Package>quickfix,quickfix.field;version="${project.version}"</Import-Package>
 								<Require-Capability>osgi.ee;filter:="(&#38;(osgi.ee=JavaSE)(version=${jdkLevel}))"</Require-Capability>
 							</instructions>
@@ -89,10 +89,9 @@
 				<configuration>
 					<classesDirectory>${project.basedir}/../../quickfixj-core/target/classes/</classesDirectory>
 					<includes>
-						<include>FIX44.wm.xml</include>
-						<include>FIX44.modified.wm.xml</include>
+						<include>FIX42.xml</include>
 						<include>quickfix/field/*.class</include>
-						<include>quickfix/fix44/**</include>
+						<include>quickfix/fix42/**</include>
 					</includes>
 					<archive>
 						<manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
@@ -106,9 +105,8 @@
 				<version>${maven-source-plugin-version}</version>
 				<configuration>
 					<includes>
-						<include>FIX44.wm.xml</include>
-						<include>FIX44.modified.wm.xml</include>
-						<include>quickfix/fix44/**</include>
+						<include>FIX42.xml</include>
+						<include>quickfix/fix42/**</include>
 						<include>quickfix/field/**</include>
 					</includes>
 				</configuration>
@@ -116,6 +114,6 @@
 		</plugins>
 	</build>
 	<properties>
-		<maven.deploy.skip>true</maven.deploy.skip>
+		<maven.deploy.skip>false</maven.deploy.skip>
 	</properties>
 </project>

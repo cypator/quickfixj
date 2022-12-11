@@ -17,7 +17,8 @@
 	<modules>
 		<module>quickfixj-messages-fix40</module>
 		<module>quickfixj-messages-fix41</module>
-		<module>quickfixj-messages-fix42</module>
+<!--		<module>quickfixj-messages-fix42</module>-->
+		<module>quickfixj-messages-fix42-Virtu</module>
 		<module>quickfixj-messages-fix43</module>
 		<module>quickfixj-messages-fix44</module>
 		<module>quickfixj-messages-fix44wm</module>

@@ -142,8 +142,11 @@
             <resource>
                 <directory>../quickfixj-messages/quickfixj-messages-fix43/src/main/resources</directory>
             </resource>
+<!--            <resource>-->
+<!--                <directory>../quickfixj-messages/quickfixj-messages-fix42/src/main/resources</directory>-->
+<!--            </resource>-->
             <resource>
-                <directory>../quickfixj-messages/quickfixj-messages-fix42/src/main/resources</directory>
+                <directory>../quickfixj-messages/quickfixj-messages-fix42-Virtu/src/main/resources</directory>
             </resource>
             <resource>
                 <directory>../quickfixj-messages/quickfixj-messages-fix41/src/main/resources</directory>
@@ -178,8 +181,11 @@
             <testResource>
                 <directory>../quickfixj-messages/quickfixj-messages-fix43/src/main/resources</directory>
             </testResource>
+<!--            <testResource>-->
+<!--                <directory>../quickfixj-messages/quickfixj-messages-fix42/src/main/resources</directory>-->
+<!--            </testResource>-->
             <testResource>
-                <directory>../quickfixj-messages/quickfixj-messages-fix42/src/main/resources</directory>
+                <directory>../quickfixj-messages/quickfixj-messages-fix42-Virtu/src/main/resources</directory>
             </testResource>
             <testResource>
                 <directory>../quickfixj-messages/quickfixj-messages-fix41/src/main/resources</directory>
@@ -282,13 +288,25 @@
                             <decimal>${generator.decimal}</decimal>
                         </configuration>
                     </execution>
+<!--                    <execution>-->
+<!--                        <id>fix42</id>-->
+<!--                        <goals>-->
+<!--                            <goal>generate</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <dictFile>../quickfixj-messages/quickfixj-messages-fix42/src/main/resources/FIX42.xml</dictFile>-->
+<!--                            <packaging>quickfix.fix42</packaging>-->
+<!--                            <fieldPackage>quickfix.field</fieldPackage>-->
+<!--                            <decimal>${generator.decimal}</decimal>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
                     <execution>
-                        <id>fix42</id>
+                        <id>fix42Virtu</id>
                         <goals>
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <dictFile>../quickfixj-messages/quickfixj-messages-fix42/src/main/resources/FIX42.xml</dictFile>
+                            <dictFile>../quickfixj-messages/quickfixj-messages-fix42-Virtu/src/main/resources/FIX42.xml</dictFile>
                             <packaging>quickfix.fix42</packaging>
                             <fieldPackage>quickfix.field</fieldPackage>
                             <decimal>${generator.decimal}</decimal>
