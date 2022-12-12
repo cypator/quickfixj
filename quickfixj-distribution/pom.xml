@@ -84,10 +84,15 @@
 			<artifactId>quickfixj-messages-fix50</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.quickfixj</groupId>-->
+<!--			<artifactId>quickfixj-messages-fix44</artifactId>-->
+<!--			<version>${project.version}</version>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.quickfixj</groupId>
-			<artifactId>quickfixj-messages-fix44</artifactId>
-			<version>${project.version}</version>
+			<artifactId>quickfixj-messages-fix44-enigma</artifactId>
+			<version>1.0.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.quickfixj</groupId>
