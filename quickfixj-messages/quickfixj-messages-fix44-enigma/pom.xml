@@ -8,7 +8,7 @@
 	</parent>
 
 	<artifactId>quickfixj-messages-fix44-enigma</artifactId>
-	<version>1.0.0.0</version>
+	<version>1.0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>QuickFIX/J Message classes for FIX 4.4</name>

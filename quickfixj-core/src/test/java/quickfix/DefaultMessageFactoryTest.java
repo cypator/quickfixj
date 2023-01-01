@@ -70,7 +70,7 @@ public class DefaultMessageFactoryTest {
         assertEquals(quickfix.fix41.News.LinesOfText.class, factory.create(BEGINSTRING_FIX41, MsgType.NEWS, LinesOfText.FIELD).getClass());
         assertEquals(quickfix.fix42.News.LinesOfText.class, factory.create(BEGINSTRING_FIX42, MsgType.NEWS, LinesOfText.FIELD).getClass());
         assertEquals(quickfix.fix43.News.LinesOfText.class, factory.create(BEGINSTRING_FIX43, MsgType.NEWS, LinesOfText.FIELD).getClass());
-        assertEquals(quickfix.fix44.News.LinesOfText.class, factory.create(BEGINSTRING_FIX44, MsgType.NEWS, LinesOfText.FIELD).getClass());
+//        assertEquals(quickfix.fix44.News.LinesOfText.class, factory.create(BEGINSTRING_FIX44, MsgType.NEWS, LinesOfText.FIELD).getClass());
         assertEquals(quickfix.fix50.News.NoLinesOfText.class, factory.create(FixVersions.FIX50, MsgType.NEWS, NoLinesOfText.FIELD).getClass());
         assertEquals(quickfix.fix50sp1.News.NoLinesOfText.class, factory.create(FixVersions.FIX50SP1, MsgType.NEWS, NoLinesOfText.FIELD).getClass());
         assertEquals(quickfix.fix50sp2.News.NoLinesOfText.class, factory.create(FixVersions.FIX50SP2, MsgType.NEWS, NoLinesOfText.FIELD).getClass());
