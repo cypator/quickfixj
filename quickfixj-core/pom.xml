@@ -134,7 +134,7 @@
                 <directory>../quickfixj-messages/quickfixj-messages-fix50/src/main/resources</directory>
             </resource>
             <resource>
-                <directory>../quickfixj-messages/quickfixj-messages-fix44/src/main/resources</directory>
+                <directory>../quickfixj-messages/quickfixj-messages-fix44-wintermute/src/main/resources</directory>
             </resource>
             <resource>
                 <directory>../quickfixj-messages/quickfixj-messages-fix43/src/main/resources</directory>
@@ -167,7 +167,7 @@
                 <directory>../quickfixj-messages/quickfixj-messages-fix50/src/main/resources</directory>
             </testResource>
             <testResource>
-                <directory>../quickfixj-messages/quickfixj-messages-fix44/src/main/resources</directory>
+                <directory>../quickfixj-messages/quickfixj-messages-fix44-wintermute/src/main/resources</directory>
             </testResource>
             <testResource>
                 <directory>../quickfixj-messages/quickfixj-messages-fix43/src/main/resources</directory>
@@ -246,7 +246,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <dictFile>../quickfixj-messages/quickfixj-messages-fix44/src/main/resources/FIX44.modified.xml</dictFile>
+                            <dictFile>../quickfixj-messages/quickfixj-messages-fix44-wintermute/src/main/resources/FIX44.modified.xml</dictFile>
                             <packaging>quickfix.fix44</packaging>
                             <fieldPackage>quickfix.field</fieldPackage>
                             <decimal>${generator.decimal}</decimal>

@@ -86,8 +86,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.quickfixj</groupId>
-			<artifactId>quickfixj-messages-fix44</artifactId>
-			<version>${project.version}</version>
+			<artifactId>quickfixj-messages-fix44-wintermute</artifactId>
+			<version>1.0.0.9</version>
 		</dependency>
 		<dependency>
 			<groupId>org.quickfixj</groupId>
